@@ -49,20 +49,35 @@ This pacakge has one function.
 **options.timeout:** The amount of time (in milliseconds) that an embed will wait to respond for.
 
 **options.noVCMessage:** Either an embed or a string that is sent when the user is not in a VC and tries to run a command
+
 **options.differentVCMessage:** Either an embed or a string that is sent when the user is in a different VC to the bot and tries to run a command
+
 **options.noSongPlayingMessage:** Either an embed or a string that is sent when the user tries to run a command (e.g. skip) but there is no song playing
+
 **options.noQueueMessage:** Either an embed or a string that is sent when the user runs a command but there is no queue
+
 **options.queueOverMessage:** Either an embed or a string that is sent when the queue finishes
+
 **options.pausedMessage:** Either an embed or a string that is sent when the song is paused
+
 **options.resumedMessage:** Either an embed or a string that is sent when the song is resumed
+
 **options.noURLMessage:** Either an embed or a string that is sent when the user runs the play command but does not provide a query/link to search for
+
 **options.noSongFoundMessage:** Either an embed or a string that is sent when the user runs the play command and the bot cannot find a song matching the query
+
 **options.noVolumeToChangeToMessage:** Either an embed or a string that is sent when the user runs the volume command but doesn't provide a volume to change to
+
 **options.noIndexOfSongToRemoveMessage:** Either an embed or a string that is sent when the user runs the remove command and doesn't provide an index to remove
+
 **options.invalidIndexToRemoveMessage:** Either an embed or a string that is sent when the user runs the remove command and the index they provide is invalid
+
 **options.triedToRemoveTheCurrentSongMessage:** Either an embed or a string that is sent when the user runs the remove command and tries to remove the song that is currently playing
+
 **options.removedSongMessage(songURL, songName):** A function that is executed when the user runs the remove command and successfully removes a song (MUST RETURN AN EMBED OR STRING)
+
 **options.nowPlayingMessage(ytdlJSONofSongData):** A function that is executed when the user runs the nowPlaying command (MUST RETURN AN EMBED OR STRING)
+
 **options.changeVolume(volumeToChangeTo):** A function that is executed when the user runs the volume command (MUST RETURN AN EMBED OR STRING)
 
 # OPTIONS EXAMPLE
