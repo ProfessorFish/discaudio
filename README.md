@@ -68,9 +68,11 @@ This pacakge has one function.
 # OPTIONS EXAMPLE
 
 This is an example for the options.changeVolume() function:
+
             function volumeMessage(newVolume){
                 return `This is a custom response. The new volume is ${newVolume}`
             }
+            options.changeVolume = volumeMessage;
 
 **To see an example of what the options.nowPlayingMessage() ytdlJSONofSongData is then view the following link:**
 https://github.com/ProfessorFish/discaudio/blob/main/exampleReturn.json
