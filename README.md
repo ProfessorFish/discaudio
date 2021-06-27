@@ -1,23 +1,32 @@
-# discord-music
+# discaudio
 
 # ~~THIS PACKAGE IS BEING DEVELOPED, COME BACK LATER. TO SEE THE FEATURES IT WILL HAVE READ BELOW~~
 
 # This package is in an early open alpha stage
 
 **EXAMPLE CODE:**
+
             const Discord = require("discord.js");
+            
             const disbut = require("discord-buttons");
+            
             const discaudio = require("discaudio");
+            
             const client = new Discord.Client();
+            
             disbut(client);
+            
             client.login(process.env.token);
+
 
             client.on("ready", ()=>{
                 console.log("i am ready")
             })
 
+
             client.on("message", async message=>{
             if(message.author.bot)return;
+            
             if(message.channel.type === "dm")return;
 
             discaudio.music(message, client, "]")
