@@ -45,8 +45,11 @@ This pacakge has one function.
 # Options
 
 **options.defaultVolume:** The volume the music is set to by default
+
 **options.colour:** The colour of all non-customised embeds
+
 **options.timeout:** The amount of time (in milliseconds) that an embed will wait to respond for.
+
 
 **options.noVCMessage:** Either an embed or a string that is sent when the user is not in a VC and tries to run a command
 
