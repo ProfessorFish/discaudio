@@ -113,3 +113,9 @@ https://github.com/ProfessorFish/discaudio/blob/main/exampleReturn.json
 + ~~Resume - does the same as play when no arguments provided~~
 + ~~Volume - changes the volume of the player~~
 + And more! I just can't be bothered to write them down.
+
+# Support
+
+Join the discord for support and for other packages/discord bots:
+
+https://discord.gg/u9gFdnu
